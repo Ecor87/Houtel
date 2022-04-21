@@ -1,0 +1,96 @@
+body {
+  background-image: url("../../assets/images/image.jpg");
+  box-sizing: border-box;
+}
+
+header p {
+  margin: 0;
+}
+
+nav div {
+  padding-left: 5%;
+}
+nav p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+header #headerTitleSmall {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+header #headerTitleBig {
+  font-family: "Playfair Display", serif;
+  font-size: 130px;
+}
+
+main {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+main form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0%;
+  margin: 5% 8%;
+  background-color: #FFF;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+main form .formSections {
+  width: 90%;
+  padding: 5px 0px;
+}
+
+#headerButton, #formButton {
+  background-color: #44bba4;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 215px;
+  padding: 10px 0px;
+}
+#headerButton:hover, #formButton:hover {
+  background-color: #e94f37;
+}
+
+#formButton {
+  background-color: #e94f37;
+  width: 155px;
+  margin: 10px 0px;
+}
+#formButton:hover {
+  background-color: #44bba4;
+}
+
+label {
+  font-size: 14px;
+  color: #5D6163;
+}
+
+input, select {
+  width: 98%;
+  border-radius: 2px;
+  font-size: 16px;
+  color: #BABABA;
+  border: 1px solid #BABABA;
+  padding: 5px 15px;
+  margin: 5px 0px;
+}
+
+select {
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */

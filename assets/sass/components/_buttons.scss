@@ -1,0 +1,22 @@
+#headerButton{
+    background-color: $positiveButton;
+    font-size: $medium;
+    font-weight: $semiBold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: $largeButton;
+    padding: 10px 0px;    
+    &:hover{
+        background-color: $defaultButton;
+    }    
+}
+#formButton{
+    @extend #headerButton;
+    background-color: $defaultButton;
+    width: $mediumButton;
+    &:hover{
+        background-color: $positiveButton;
+    }    
+    margin: 10px 0px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houtel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <nav>
+        <div>
+            <p>Houtel</p>
+        </div>
+    </nav>
+    <header>
+        <p id="headerTitleSmall">Disfruta de los paisajes de</p>
+        <p id="headerTitleBig">Chile</p>
+        <button type="button" id="headerButton">Más destinos</button>
+    </header>
+    <main>
+        <form action="">
+            <div class="formSections">
+                <label for="hotel">Lugar u hotel</label><br>
+                <input type="text" id="hotel" placeholder="Escribe tu destino">
+            </div>
+            <div class="formSections">
+                <label for="date1">Fecha de llegada</label><br>
+                <select id="date1">
+                    <option value="" disabled selected>Busca tu llegada</option>
+                    <option value="Enero">Enero</option>
+                    <option value="Febrero">Febrero</option>
+                    <option value="Marzo">Marzo</option>
+                    <option value="Abril">Abril</option>
+                    <option value="Mayo">Mayo</option>
+                    <option value="Junio">Junio</option>
+                    <option value="Julio">Julio</option>
+                    <option value="Agosto">Agosto</option>
+                    <option value="Septiembre">Septiembre</option>
+                    <option value="Octubre">Octubre</option>
+                    <option value="Noviembre">Noviembre</option>
+                    <option value="Diciembre">Diciembre</option>
+                </select>
+            </div>
+            <div class="formSections">
+                <label for="date2">Fecha de salida</label><br>
+                <select id="date2">
+                    <option value="" disabled selected>Busca tu salida</option>
+                    <option value="Enero">Enero</option>
+                    <option value="Febrero">Febrero</option>
+                    <option value="Marzo">Marzo</option>
+                    <option value="Abril">Abril</option>
+                    <option value="Mayo">Mayo</option>
+                    <option value="Junio">Junio</option>
+                    <option value="Julio">Julio</option>
+                    <option value="Agosto">Agosto</option>
+                    <option value="Septiembre">Septiembre</option>
+                    <option value="Octubre">Octubre</option>
+                    <option value="Noviembre">Noviembre</option>
+                    <option value="Diciembre">Diciembre</option>
+                </select>
+            </div>
+            <div class="formSections">
+                <label for="accomodation">Tipo de alojamiento</label><br>
+                <select id="accomodation">
+                    <option value="" disabled selected>Cantidad de huéspedes</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                </select>
+            </div>
+            <div class="formSections">
+                <label for="rooms">Tipo de habitación</label><br>
+                <select id="rooms">
+                    <option value="" disabled selected>Cantidad de habitaciones</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <button type="button" id="formButton">Buscar</button>
+        </form>
+    </main>
+</body>
+</html>

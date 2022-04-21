@@ -1,0 +1,17 @@
+label{
+    font-size: $small;
+    color: $graniteGray;
+}
+input{
+    width: 98%;
+    border-radius: 2px;
+    font-size: $medium;
+    color: $gray;
+    border: 1px solid $gray;
+    padding: 5px 15px;
+    margin: 5px 0px;
+}
+select{
+    @extend input;
+    width: 100%;
+}    
